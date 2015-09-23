@@ -12,5 +12,9 @@ module.exports = {
         interval: "Interval in ms so read the sensor"
         type: "integer"
         default: 10000
+      coorector:
+        description: "correction of the sensor value"
+        type: "integer"
+        default: 0
   }
 }
